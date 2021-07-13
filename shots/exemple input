@@ -1,0 +1,8 @@
+un chestionar prin care se cere parerea oamenilor despre conditiile de trafic, utilizatorul va alege dintr-un combobox si isi va completa si numarul de telefon la final
+se va introduce si intervalul orar in care acesta circula
+
+interface background is gray; buttons turn yellow at hover; labels are green;
+
+o fereastra de logare securizata pentru utilizatorii unei aplicatii (prin parola sau cod de confirmare)
+
+interface background is gray; the buttons are blue at hover; button text is white and bold;

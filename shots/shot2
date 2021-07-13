@@ -1,0 +1,8 @@
+Q: o aplicatie cu titlul "MyApp" cu trei butoane aliniate orizontal: "Start" in stanga, "Settings" in centru si "Exit" la dreapta
+A:
+self.setWindowTitle("MyApp")
+layout = QHBoxLayout()
+layout.addWidget(QPushButton("Start"))
+layout.addWidget(QPushButton("Settings"))
+layout.addWidget(QPushButton("Exit"))
+self.setLayout(layout) #end

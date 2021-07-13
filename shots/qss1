@@ -1,0 +1,27 @@
+Next pieces of code use CSS language.
+Q: button with red background and bold green text;
+A:
+QPushButton {background-color: red; color: green; font-weight: bold;}
+Q: lines with yellow background; checkbox, buttons, combobox with red text and white background; dates with bold text;
+A:
+QLineEdit { background: yellow }
+QCheckBox, QPushButton, QComboBox  { color: red; background-color: white }
+QDateEdit { font-weight: bold; }
+Q: buttons with green text and blue background;
+A:
+QPushButton { color: green; background-color: blue;}
+Q: buttons with round orange border; disabled buttons have gray background and green text; the interface background is blue;
+A:
+QPushButton { border: 5px solid orange; border-radius: 10px; }
+QPushButton:disabled { background-color: gray; color: green; }
+QWidget { background-color: blue; }
+Q: green and bold labels; the interface background is black; round buttons; pressed buttons turn green and the text italic;
+A:
+QLabel { color: green; font-weight: bold; font-size: 12px; }
+QWidget { background-color: black; }
+QPushButton { min-height: 36px; max-width: 72px; border: 2px solid; border-radius: 18px; }
+QPushButton:pressed { background-color: green; font-style: italic; }
+Q: red combobox with italic text; combobox text is larger at hover;
+A:
+QComboBox  {font-style: italic; background-color: red; }
+QComboBox:pressed { font-size: 18px; }

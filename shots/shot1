@@ -1,0 +1,10 @@
+Q: fereastra de atentionare, la apasarea unui buton cu textul 'Ok' se inchide fereastra
+A:
+self.setWindowTitle("Atentionare")
+layout = QFormLayout()
+layout.addWidget(QLabel('Date indisponibile'))
+layout.addWidget(QCheckBox('Nu mai afisa din nou'))
+self.button = QPushButton("Ok")
+layout.addWidget(self.button)
+self.button.clicked.connect(lambda: self.close())
+self.setLayout(layout)#end

@@ -1,0 +1,11 @@
+Q: aplicatie pentru generarea de numere la intamplare, numarul maxim se selecteaza dintr-un SpinBox in intervalul 0, 100
+A:
+        self.numar_maxim = QSpinBox()
+        self.numar_maxim.setRange(0, 100)
+        self.numar_generat = QLabel()
+        self.btn = QPushButton("Genereaza")
+        layout = QFormLayout()
+        layout.addRow("Numar maxim", self.numar_maxim)
+        layout.addRow(self.btn)
+        layout.addRow("Numar generat:", self.numar_generat)
+        self.setLayout(layout)#end
